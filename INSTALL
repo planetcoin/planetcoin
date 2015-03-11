@@ -1,0 +1,9 @@
+Building PlanetCoin
+
+See doc/readme-qt.rst for instructions on building PlanetCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of PlanetCoin.
+
+See doc/build-*.txt for instructions on building PlanetCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of PlanetCoin.

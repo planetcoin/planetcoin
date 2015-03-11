@@ -1,0 +1,12 @@
+obj/emessage.o: emessage.cpp emessage.h net.h mruset.h netbase.h \
+ serialize.h allocators.h version.h clientversion.h compat.h protocol.h \
+ uint256.h addrman.h util.h sync.h emessageclass.h db.h main.h bignum.h \
+ script.h keystore.h crypter.h key.h scrypt_mine.h wallet.h \
+ ui_interface.h walletdb.h base58.h lz4/lz4.h init.h lz4/lz4.c \
+ xxhash/xxhash.h xxhash/xxhash.c
+emessage.cpp emessage.h net.h mruset.h netbase.h :
+ serialize.h allocators.h version.h clientversion.h compat.h protocol.h :
+ uint256.h addrman.h util.h sync.h emessageclass.h db.h main.h bignum.h :
+ script.h keystore.h crypter.h key.h scrypt_mine.h wallet.h :
+ ui_interface.h walletdb.h base58.h lz4/lz4.h init.h lz4/lz4.c :
+ xxhash/xxhash.h xxhash/xxhash.c :

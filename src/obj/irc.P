@@ -1,0 +1,8 @@
+obj/irc.o: irc.cpp irc.h allocators.h net.h mruset.h netbase.h \
+ serialize.h version.h clientversion.h compat.h protocol.h uint256.h \
+ addrman.h util.h sync.h emessageclass.h strlcpy.h base58.h bignum.h \
+ key.h script.h keystore.h crypter.h ui_interface.h
+irc.cpp irc.h allocators.h net.h mruset.h netbase.h :
+ serialize.h version.h clientversion.h compat.h protocol.h uint256.h :
+ addrman.h util.h sync.h emessageclass.h strlcpy.h base58.h bignum.h :
+ key.h script.h keystore.h crypter.h ui_interface.h :
